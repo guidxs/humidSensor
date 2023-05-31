@@ -30,7 +30,7 @@ Devido às limitações do Tinkercad, não é possível simular diretamente a bo
 4. Alimente o Arduino com a fonte de energia adequada.
 5. Observe o comportamento do LED e do buzzer com base na leitura do sensor de umidade.
 
-Certifique-se de ajustar os níveis de umidade (variáveis `umidadeMin` e `umidadeMax`) no código para atender às necessidades das suas plantas e do sensor de umidade que você está usando.
+Certifique-se de ajustar os níveis de umidade (variável `umidade`) no código para atender às necessidades das suas plantas e do sensor de umidade que você está usando.
 
 ## Licença
 
