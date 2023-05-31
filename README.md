@@ -2,13 +2,18 @@
 
 Este é um projeto de um sistema de irrigação inteligente usando um Arduino. O sistema monitora a umidade do solo e controla uma bomba de água para manter as plantas adequadamente irrigadas.
 
+## TinkerCad
+
+- Link: https://www.tinkercad.com/things/cqR6zR0kUnu?sharecode=JVxEjzr3fsjK9kPp2LkjyAcDtrtb8rWU5X3VxHhCAcc
+
 ## Funcionalidade
 
 O sistema utiliza um sensor de umidade do solo para medir a umidade presente no solo. Com base nessa leitura, o sistema determina se é necessário ligar a bomba de água para irrigar as plantas.
 
 O sistema é implementado utilizando um Arduino UNO e os seguintes componentes:
 - Sensor de umidade do solo
-- LED (representando a bomba de água)
+- Protoboard
+- LED (representando o nível da humidade)
 - Buzzer (para emitir um aviso sonoro em caso de erro)
 
 O código do Arduino faz a leitura do sensor de umidade e determina o estado de irrigação com base em níveis pré-definidos de umidade. Quando a umidade está abaixo do limite mínimo, o LED acende na cor laranja, indicando que a bomba de água deve ser ligada para irrigar as plantas. Em caso de erro, quando a umidade ultrapassa o limite máximo, o LED fica vermelho e o buzzer emite um aviso sonoro.
